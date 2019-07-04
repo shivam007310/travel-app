@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".MainActivity">
+
+        <ImageView
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_gravity="center_horizontal|bottom"
+            android:scaleType="center"
+            android:src="@drawable/image1" />
+
+        <TextView
+            android:id="@+id/text1"
+            android:layout_width="336dp"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="37dp"
+            android:layout_marginTop="200dp"
+            android:text="Explore Travels!"
+            android:textColor="#f3f9fe"
+            android:textSize="45sp" />
+
+        <Button
+
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_below="@id/text1"
+            android:layout_centerVertical="true"
+            android:layout_marginTop="58dp"
+            android:background="@color/colorPrimary"
+            android:text="EXplore"
+            android:textColor="#ffffff"
+            android:textStyle="bold" />
+
+
+
+</RelativeLayout>
+
